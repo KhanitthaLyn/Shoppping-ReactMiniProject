@@ -5,7 +5,7 @@ export default function Header(){
     return(
         <header>
             <p>Shopping Application</p>
-            <p>สินค้าในตะกร้า : {amount}</p>
+            <p>Shopping Basket : {amount}</p>
         </header>
     )
 }

@@ -7,8 +7,8 @@ export default function Item(props) {
     <div className="card">
       <img src={image} alt={id} />
       <div className="product">
-        <p className="name">ชื่อสินค้า : {name}</p>
-        <p className="price">ราคา : {formatMoney(price)} บาท</p>
+        <p className="name">Name : {name}</p>
+        <p className="price">Price : {formatMoney(price)} Baht</p>
       </div>
       <div className="quantity">
         <button onClick={()=>addQuantity(id)}>+</button>
@@ -16,7 +16,7 @@ export default function Item(props) {
         <button onClick={()=>subtractQuantity(id)}>-</button>
       </div>
       <div className="total-price">{formatMoney(quantity * price)}</div>
-      <button onClick={()=>removeItem(id)}>ลบสินค้า</button>
+      <button onClick={()=>removeItem(id)}>delete</button>
     </div>
   );
 }

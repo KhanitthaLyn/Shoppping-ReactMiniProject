@@ -27,8 +27,8 @@ input{
 }
 button{
     border: none;
-    background: rgb(226, 7, 7);
-    color: white;
+    background: rgb(236, 236, 29);
+    color: black;
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;

@@ -22,7 +22,7 @@ export const CartProvider=({children})=>{
         dispatch({type:"SUBTRACT",payload:id})
     }
     useEffect(()=>{
-        console.log("คำนวณหาผลรวม")
+        console.log("SUM")
         dispatch({type:"CALCULATE_TOTAL"})
     },[state.products])
     return(
